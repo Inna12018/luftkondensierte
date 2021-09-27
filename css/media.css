@@ -1,0 +1,254 @@
+@media(max-width: 1120px) {
+    .header__menu-btn {
+        display: block;
+    }
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        top: 42px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color:#004FC7;
+    }
+    .header__menu li{
+        display: block;
+        text-align: center;
+    }
+    .header__menu li + li {
+        margin-left: 0;
+    }
+    .header__drop-down.drop-down {
+        margin-left: 0;
+    }
+    
+    .standards__descr-body{
+        width: 33%;
+        padding-left: 0;
+    }
+    .standards__descr-title{
+        line-height: 20px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .visitors__btn {
+        padding-bottom: 0;
+    }
+
+
+    .appointment{
+        margin-top: 0;
+    }
+
+    .appointment__inner{
+        /* display: block; */
+    flex-wrap: wrap;
+    }
+        
+    .appointment__inner-item:nth-of-type(1) { 
+            order: 2;
+    }
+
+    .appointment__inner-item:nth-of-type(2) { 
+            order: 3;
+     }
+     .appointment__inner-item:nth-of-type(3) { 
+        order: 1;
+ }
+ .appointment__title{
+     min-width: auto;
+ }
+
+    .appointment__title{
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 28px;
+    }
+    .btn{
+        display: block;
+        margin: 0 auto;
+        min-width: auto;
+        width: 100%;
+    }
+    .appointment__logo{
+        display: block;
+        margin: 0 auto;
+
+    }
+    .advantage__inner{
+        display: block;
+        width: 100%;
+        /* min-width: 394px; */
+        margin-top: 100px;
+        padding-bottom: 0;
+    }
+    .advantage__item-title{
+        margin-left: 0;
+    }
+    
+}
+
+@media(max-width: 376px){
+    .chillers{
+        margin-top: 56px;
+    }
+    .chillers__inner{
+        grid-template-columns: 1fr;
+    }
+    .chillers__item-line {
+        margin: 30px auto;
+    }
+    
+    .line__two{
+        display: none;
+    }
+
+    .chillers__item-subtitle{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .chillers__item-title{
+        font-size: 34px;
+        line-height: 51px;
+        text-align: center;
+    }
+    .standards__descr-body {
+        width: 100%;
+    }
+
+    .standards__inner-container{
+        margin-top: 25px;
+
+    }
+    .speciality__inner{
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+    .speciality__inner-item:nth-of-type(1) { 
+        order: 2;
+}
+.speciality__inner-item:nth-of-type(2) { 
+    order: 1;
+}
+.speciality__inner-body{
+    width: auto;
+}
+
+   
+    .visitors__btn-link{
+        margin: 5px auto;
+        width: 100%;
+        display: block;
+        font-size: 15px;
+    }
+    .appointment__text{
+        padding: 0px;
+
+    }
+
+ .visitors__title{
+     padding-top: 10px;
+ }
+    
+
+    .standards__descr-title{
+        margin-top: 39px;
+    }
+    .speciality {
+        margin-top: 0px;
+    }
+    .speciality__img{
+        top: 132px;
+    }
+
+    .standards__img{
+        width: 100%;
+    }
+    .standards__img img{
+        width: 100%;
+    }
+      .standards__descr-container{
+        position: relative;
+    }
+    
+    .footer__inner{
+        display: block;
+    }
+    .multi-column{
+        column-count: 1;
+    }
+    .slick-dots{
+        left: 0;
+        bottom: 36px;
+
+
+    }
+
+    .advantage__item-title {
+        width: 100%;
+
+    }
+
+    
+
+    .advantage__item-title.icon1::after,
+    .advantage__item-title.icon2::after, 
+    .advantage__item-title.icon3::after,
+    .advantage__item-title.icon4::after, 
+    .advantage__item-title.icon5::after, 
+    .advantage__item-title.icon6::after,
+    .advantage__item-title.icon7::after,
+    .advantage__item-title.icon8::after,
+    .advantage__item-title.icon9::after,
+    .advantage__item-title.icon10::after {
+        content: "";
+        position: absolute;
+        left: 30px;
+        width: 85px;
+        top: 19px;
+    }
+
+    .properties__text{
+        line-height: 34px;
+    }
+    .slider{
+        padding-top: 0;
+    }
+    .footer{
+        padding: 25px 0;
+    }
+    .appointment__logo{
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+    .appointment__logo img {
+        display: block;
+        margin: 0 auto;
+    }
+    .speciality__img img{
+        height: 50vh;
+        margin-top:-148px;
+    }
+    .speciality__inner-body{
+        margin-top: 300px;
+    }
+    .speciality__item-text {
+        margin-top: 30px;
+    }
+    .speciality__item-text .item__text-italic{
+        font-style: italic;
+        font-weight: 400;
+        color: #45494F;
+    }
+    .properties__title{
+        letter-spacing: 0.42px;
+
+    }
+}
+
+
+
+
+
